@@ -34,7 +34,7 @@ export default function Navbar2() {
 "
                       transform="translate(775 534)"
                       fill="#fff"
-                      font-size="147"
+                      fontSize="147"
                       fontFamily="Poppins-Bold, Poppins"
                       fontWeight="700"
                     >

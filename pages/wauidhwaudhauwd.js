@@ -1,24 +1,25 @@
 // import PageLayout from "../components/PageLayout";
 // import TV from "../components/TV";
 
-// export default function tv({ posts = [] }) {
-//   console.log({ posts });
-//   return (
-//     <PageLayout title="TV | A.J. Kanell">
-//       <h1 className="mb-4 text-gray-900 text-7xl font-sans mt-4">Television</h1>
+export default function tv({ posts = [] }) {
+  //   console.log({ posts });
+  return (
+    // <PageLayout title="TV | A.J. Kanell">
+    //   <h1 className="mb-4 text-gray-900 text-7xl font-sans mt-4">Television</h1>
 
-//       <div className="lg:text-center text-left pb-16">
-//         {posts.map((post) => (
-//           <TV
-//             key={post.sys.id}
-//             src={post.fields.youtubeLink}
-//             title={post.fields.title}
-//           />
-//         ))}
-//       </div>
-//     </PageLayout>
-//   );
-// }
+    //   <div className="lg:text-center text-left pb-16">
+    //     {posts.map((post) => (
+    //       <TV
+    //         key={post.sys.id}
+    //         src={post.fields.youtubeLink}
+    //         title={post.fields.title}
+    //       />
+    //     ))}
+    //   </div>
+    // </PageLayout>
+    <div>hi</div>
+  );
+}
 
 // // get static props
 // export async function getStaticProps() {

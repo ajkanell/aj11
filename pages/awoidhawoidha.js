@@ -1,24 +1,25 @@
 // import PageLayout from "../components/PageLayout";
 // import Radio from "../components/Radio";
 
-// export default function RadioPage({ posts = [] }) {
-//   return (
-//     <PageLayout title="RADIO | A.J. Kanell">
-//       <h1 className="text-7xl text-gray-900 font-sans mb-16 mt-2">RADIO</h1>
-//       <div className=" lg:w-1/2 w-full lg:px-0 px-6 space-y-20 mb-16">
-//         {posts.map((post) => (
-//           <Radio
-//             key={post.sys.id}
-//             src={post.fields.soundcloudLink}
-//             title={post.fields.title}
-//           />
-//         ))}
-//       </div>
-//     </PageLayout>
-//   );
-// }
+export default function RadioPage({ posts = [] }) {
+  return (
+    // <PageLayout title="RADIO | A.J. Kanell">
+    //   <h1 className="text-7xl text-gray-900 font-sans mb-16 mt-2">RADIO</h1>
+    //   <div className=" lg:w-1/2 w-full lg:px-0 px-6 space-y-20 mb-16">
+    //     {posts.map((post) => (
+    //       <Radio
+    //         key={post.sys.id}
+    //         src={post.fields.soundcloudLink}
+    //         title={post.fields.title}
+    //       />
+    //     ))}
+    //   </div>
+    // </PageLayout>
+    <div>hi</div>
+  );
+}
 
-// // get static props
+// get static props
 // export async function getStaticProps() {
 //   // Create an instance of the Contentful JavaScript SDK
 //   const client = require("contentful").createClient({

@@ -48,9 +48,8 @@ export default function Flag() {
     <ul className="z-50 shadow-xl bg-gray-800 hidden fixed left-0 -mt-16 top-1/2  sm:flex flex-col">
       <div className="space-y-6 my-4 px-2 pr-3">
         {navigation.social.map((item) => (
-          <li>
+          <li key={item.name}>
             <a
-              key={item.name}
               href={item.href}
               target="_blank"
               className="text-gray-50 transition-opacity"
