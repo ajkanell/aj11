@@ -42,7 +42,7 @@ export default function Home() {
               <div className="flex sm:flex-row flex-col justify-between">
                 <div className="sm:hidden block ">
                   <Image
-                    src="/images/home.png"
+                    src="/images/new.png"
                     alt="A.J Kanell"
                     width={146}
                     height={146}
