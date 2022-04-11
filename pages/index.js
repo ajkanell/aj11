@@ -92,7 +92,7 @@ export default function Home() {
                 voice for more than 10 years. For questions or comments, feel
                 free to visit the{" "}
                 <a href="/contact" className=" text-blue-400">
-                  contact me
+                  contact 
                 </a>{" "}
                 page.
               </h3>
