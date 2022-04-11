@@ -92,7 +92,7 @@ export default function Navbar2() {
                 </a>
               </li> */}
               <li className="nav-item">
-                <Link href="/resume">
+                <Link href="/experience">
                   <a
                     onClick={() => setNavbarOpen(!navbarOpen)}
                     className=" py-2 flex items-center text-sm  font-bold leading-snug transition-opacity hover:opacity-75"
