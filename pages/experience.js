@@ -1,11 +1,11 @@
 import Image from "next/image";
 import PageLayout from "../components/PageLayout";
 
-export default function Resume({ posts }) {
+export default function Experience({ posts }) {
   return (
     <>
-      <PageLayout title="RESUME | A.J KANELL">
-        <h1 className="text-7xl text-gray-900 font-sans mb-8">RESUME</h1>
+      <PageLayout title="EXPERIENCE | A.J KANELL">
+        <h1 className="text-7xl text-gray-900 font-sans mb-8">EXPERIENCE</h1>
         {/* <div className="flex items-center space-x-1 font-semibold mb-2">
           <h3>Download</h3>
           <div className="w-6 h-6 pt-1">

@@ -97,7 +97,7 @@ export default function Navbar2() {
                     onClick={() => setNavbarOpen(!navbarOpen)}
                     className=" py-2 flex items-center text-sm  font-bold leading-snug transition-opacity hover:opacity-75"
                   >
-                    <span className="">Resume</span>
+                    <span className="">Experience</span>
                   </a>
                 </Link>
               </li>
@@ -107,7 +107,7 @@ export default function Navbar2() {
                     onClick={() => setNavbarOpen(!navbarOpen)}
                     className=" py-2 px-3 flex items-center text-sm sm:mt-0 mt-2 font-bold leading-snug transition-opacity	  hover:opacity-75 bg-blue-500"
                   >
-                    <span className="">Contact Me</span>
+                    <span className="">Contact</span>
                   </a>
                 </Link>
               </li>

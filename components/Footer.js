@@ -5,8 +5,8 @@ const navigation = {
     { name: "Home", href: "/" },
     // { name: "TV", href: "/tv" },
     // { name: "Radio", href: "/radio" },
-    { name: "Resume", href: "/resume" },
-    { name: "Contact Me", href: "/contact" },
+    { name: "Experience", href: "/experience" },
+    { name: "Contact", href: "/contact" },
   ],
   social: [
     {

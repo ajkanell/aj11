@@ -37,7 +37,7 @@ export default function Home() {
     <Layout title="A.J. KANELL | PLAY-BY-PLAY BROADCASTER">
       <div className="flex items-center justify-center bg-gray-50 overflow-hidden min-h-screen">
         <>
-          <main className="mt-10 md:-mt-20 mx-auto sm:max-w-2xl px-4 md:mb-0">
+          <main className="mt-10 md:-mt-20 mx-auto sm:max-w-2xl pb-16 px-4 md:mb-0">
             <div className="sm:text-left text-center">
               <div className="flex sm:flex-row flex-col justify-between">
                 <div className="sm:hidden block ">
@@ -71,12 +71,13 @@ export default function Home() {
                   </div>
                 </div>
                 <Fade>
-                  <div className="sm:block hidden pt-2">
+                  <div className="sm:block hidden pt-2 ">
                     <Image
-                      src="/images/home.png"
+                      src="/images/new.png"
                       alt="A.J Kanell"
                       width={146}
                       height={146}
+                      className="rounded-full"
                     />
                   </div>
                 </Fade>
